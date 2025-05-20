@@ -6,9 +6,10 @@ export default defineConfig({
   test: {
     globals: true,
     environment: "jsdom",
+    include: ["src/components/application/Application.test.{ts,tsx}"],
     coverage: {
-      // include: ["src/components/**/*.{ts,tsx}"],
-      // exclude: ["src/components/IgnoreMe.tsx"],
+      include: ["src/components/**/*.{ts,tsx}"],
+      exclude: ["src/App.tsx/**", "src/main.tsx/**"],
       thresholds: {
         statements: 80,
         branches: 80,
