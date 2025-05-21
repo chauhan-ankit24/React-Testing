@@ -10,7 +10,8 @@ export default defineConfig({
     // include: ["src/components/skills/Skills.test.{ts,tsx}"],
     // include: ["src/components/counter/Counter.test.{ts,tsx}"],
     // include: ["src/hooks/use-counter/useCounter.test.{ts,tsx}"],
-    include: ["src/components/counter-two/CounterTwo.test.{ts,tsx}"],
+    // include: ["src/components/counter-two/CounterTwo.test.{ts,tsx}"],
+    include: ["src/components/users/Users.test.{ts,tsx}"],
     coverage: {
       include: ["src/components/**/*.{ts,tsx}"],
       exclude: ["src/App.tsx/**", "src/main.tsx/**"],

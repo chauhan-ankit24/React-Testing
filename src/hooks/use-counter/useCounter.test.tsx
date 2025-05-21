@@ -1,5 +1,6 @@
 import { renderHook, act } from '@testing-library/react'
 import { useCounter } from './useCounter'
+import '@testing-library/jest-dom'
 
 describe('useCounter', () => {
   test('should render the initial count', () => {
